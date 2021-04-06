@@ -1,0 +1,98 @@
+/* pages/book/index.wxss */
+.header{
+    width: 100%;
+    height: 210px;
+    background-color:#48D1CC;
+    padding-top: 10px;
+}
+.header-title{
+    width: 100%;
+    line-height: 30px;
+    font-size:16px;
+    color: white;
+    text-align: center;
+}
+.header-con{
+    width: 390px;
+    height: 180px;
+    padding-left: 30px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-imager{
+    height: 150px;
+    width: 200px;
+}
+.header-imager image{
+    height: 140px;
+    width: 200px;
+}
+.content{
+    height: 140px;
+    margin-right: 30px;
+    padding-top: 30px;
+}
+.con-title{
+    line-height: 40px;
+    font-size: 27px;
+    color: white;
+    font-weight: bold;
+}
+.con-res{
+    font-size: 16px;
+    line-height: 30px;
+    margin-top: 20px;
+    color: white;
+}
+.mainTap{
+    width: 410px;
+}
+.tap{
+    width: 330px;
+    height: 120px;
+    border: 0.1px solid #C0C0C0;
+    border-radius: 10rpx;
+    box-shadow: 0 0 30rpx #C0C0C0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-right: 25px;
+    margin-left: 25px;
+    padding-left: 30px;
+}
+.titleFir{
+    font-weight: bold;
+    line-height: 120px;
+    width: 130px;
+    text-align: center;
+    text-shadow: 5px 5px 5px #C0C0C0;
+}
+.tapFir{
+    height: 100px;
+    margin-right: 20px;
+    width: 140px;
+}
+.tapFir image{
+    width: 140px;
+    height: 100px;
+}
+.titleSec{
+    font-weight: bold;
+    line-height: 120px;
+    width: 130px;
+    text-align: center;
+    text-shadow: 5px 5px 5px #C0C0C0;
+    margin-right: 20px;
+}
+.tapSec{
+    height: 100px;
+    width: 140px;
+}
+.tapSec image{
+    width: 140px;
+    height: 100px;
+}

@@ -1,0 +1,115 @@
+<view class="header">
+    <view class="header-left">
+        <view class="header-icon">
+            <text class="iconfont icon-RectangleCopy"></text>
+        </view>
+        <input type="text" placeholder="查询动物"/>
+    </view>
+    <view class="header-right">
+        <text class="iconfont icon-cameraswitching"></text>
+    </view>
+</view>
+<view class="bar" hover-class="none" hover-stop-propagation="false">
+    <view class="bar-item {{isBar == 1 ? 'is' :' '}}" bindtap = "switchs" data-uid = "1">哺乳类</view>
+    <view class="bar-item {{isBar == 2 ? 'is' :' '}}" bindtap = "switchs" data-uid = "2">鸟类</view>
+    <view class="bar-item {{isBar == 3 ? 'is' :' '}}" bindtap = "switchs" data-uid = "3">鱼类</view>
+    <view class="bar-item {{isBar == 4 ? 'is' :' '}}" bindtap = "switchs" data-uid = "4">两栖类</view>
+    <view class="bar-item {{isBar == 5 ? 'is' :' '}}" bindtap = "switchs" data-uid = "5">爬行动物</view>
+    <view class="bar-item {{isBar == 6 ? 'is' :' '}}" bindtap = "switchs" data-uid = "6">其他</view>
+</view>
+<view class="bar-main" hover-class="none" hover-stop-propagation="false" wx:if="{{isBar == 1}}">
+    <view class="content-row" hover-class="none" hover-stop-propagation="false" wx:for="{{ani}}" wx:key="*this">
+        <view class="content" wx:for="{{item}}" wx:key="*this">
+            <image src="{{item.imgUrl}}" alt=""/>
+            <view class="content-name">
+                {{item.name}}
+            </view>
+            <view class="content-Ename">
+                {{item.ename}}
+            </view>
+            <view class="content-class">
+                {{item.class}}
+            </view>
+        </view>
+    </view>
+</view>
+<view class="bar-main" hover-class="none" hover-stop-propagation="false" wx:if="{{isBar == 2}}">
+    <view class="content-row" hover-class="none" hover-stop-propagation="false" wx:for="{{aniBird}}" wx:key="*this">
+        <view class="content" wx:for="{{item}}" wx:key="*this">
+            <image src="{{item.imgUrl}}" alt=""/>
+            <view class="content-name">
+                {{item.name}}
+            </view>
+            <view class="content-Ename">
+                {{item.ename}}
+            </view>
+            <view class="content-class">
+                {{item.class}}
+            </view>
+        </view>
+    </view>
+</view>
+<view class="bar-main" hover-class="none" hover-stop-propagation="false" wx:if="{{isBar == 3}}">
+    <view class="content-row" hover-class="none" hover-stop-propagation="false" wx:for="{{ani}}" wx:key="*this">
+        <view class="content" wx:for="{{item}}" wx:key="*this">
+            <image src="{{item.imgUrl}}" alt=""/>
+            <view class="content-name">
+                {{item.name}}
+            </view>
+            <view class="content-Ename">
+                {{item.ename}}
+            </view>
+            <view class="content-class">
+                {{item.class}}
+            </view>
+        </view>
+    </view>
+</view>
+<view class="bar-main" hover-class="none" hover-stop-propagation="false" wx:if="{{isBar == 4}}">
+    <view class="content-row" hover-class="none" hover-stop-propagation="false" wx:for="{{ani}}" wx:key="*this">
+        <view class="content" wx:for="{{item}}" wx:key="*this">
+            <image src="{{item.imgUrl}}" alt=""/>
+            <view class="content-name">
+                {{item.name}}
+            </view>
+            <view class="content-Ename">
+                {{item.ename}}
+            </view>
+            <view class="content-class">
+                {{item.class}}
+            </view>
+        </view>
+    </view>
+</view>
+<view class="bar-main" hover-class="none" hover-stop-propagation="false" wx:if="{{isBar == 5}}">
+    <view class="content-row" hover-class="none" hover-stop-propagation="false" wx:for="{{ani}}" wx:key="*this">
+        <view class="content" wx:for="{{item}}" wx:key="*this">
+            <image src="{{item.imgUrl}}" alt=""/>
+            <view class="content-name">
+                {{item.name}}
+            </view>
+            <view class="content-Ename">
+                {{item.ename}}
+            </view>
+            <view class="content-class">
+                {{item.class}}
+            </view>
+        </view>
+    </view>
+</view>
+<view class="bar-main" hover-class="none" hover-stop-propagation="false" wx:if="{{isBar == 6}}">
+    <view class="content-row" hover-class="none" hover-stop-propagation="false" wx:for="{{ani}}" wx:key="*this">
+        <view class="content" wx:for="{{item}}" wx:key="*this">
+            <image src="{{item.imgUrl}}" alt=""/>
+            <view class="content-name">
+                {{item.name}}
+            </view>
+            <view class="content-Ename">
+                {{item.ename}}
+            </view>
+            <view class="content-class">
+                {{item.class}}
+            </view>
+        </view>
+    </view>
+</view>

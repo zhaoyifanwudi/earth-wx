@@ -1,0 +1,55 @@
+<view class="header">
+    <view class="header-title">
+        举报-非法贩卖野生动物/制品
+    </view>
+    <view class="header-con">
+        <view class="header-imager">
+            <image src="../../res/huanan.webp" />
+        </view>
+        <view class="content">
+            <view class="con-title">
+                举报入口
+            </view>
+            <view class="con-res">
+                拍照举报，快速便捷
+            </view>
+        </view>
+    </view>
+</view>
+<view class="mainTap">
+    <view class="tap">
+        <view class="titleFir">
+            常见禁食野生动物
+        </view>
+        <view class="tapFir">
+            <image src="../../res/huanan.webp" />
+        </view>
+    </view>
+    <view class="tap">
+        <view class="tapSec">
+            <image src="../../res/huanan.webp" />
+        </view>
+        <view class="titleSec">
+            常见野生动物制品
+        </view>
+        
+
+    </view>
+    <view class="tap">
+        <view class="titleFir">
+            相关法规
+        </view>
+        <view class="tapFir">
+            <image src="../../res/huanan.webp" />
+        </view>
+    </view>
+    <view class="tap">
+        <view class="tapSec">
+            <image src="../../res/huanan.webp" />
+        </view>
+        <view class="titleSec">
+            举报信息管理
+        </view>
+        
+    </view>
+</view>

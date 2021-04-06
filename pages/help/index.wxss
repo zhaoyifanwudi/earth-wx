@@ -1,0 +1,81 @@
+/* pages/book/index.wxss */
+.header{
+    width: 420px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hRight{
+    text-align: center;
+    line-height: 50px;
+    width: 207px;
+    border: 1px solid #C0C0C0;
+    font-weight: bold;
+}
+.hLeft{
+    text-align: center;
+    line-height: 50px;
+    width: 207px;
+    border: 1px solid #C0C0C0;
+    font-weight: bold;
+}
+.tab{
+    width: 420px;
+}
+.tab-main{
+    width: 420px;
+    height: 140px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+}
+.tab-img{
+    height: 140px;
+    width: 170px;
+}
+.tab-img image{
+    height: 140px;
+    width: 170px;
+}
+.tab-con{
+    width: 230px;
+    height: 140px;
+}
+.tab-title{
+    margin-top: 15px;
+    margin-bottom: 65px;
+    line-height: 20px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+.tab-bot{
+    line-height: 20px;
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.tab-from{
+    line-height: 20px;
+    color: #C0C0C0;
+    font-weight: bold;
+    letter-spacing: 1px;
+    width: 100px;
+}
+.tab-help{
+    width: 90px;
+    line-height: 30px;
+    text-align: center;
+    background-color: #00BFFF;
+    border-radius: 20px;
+    color: white;
+}
+.line{
+    width: 90%;
+    height: 2rpx;
+    background-color: #C0C0C0;
+    margin: 10px auto;
+}

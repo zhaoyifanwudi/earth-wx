@@ -1,0 +1,31 @@
+<view class="header">
+    <view class="hLeft">
+        助力/捐赠活动
+    </view>
+    <view class="hRight">
+        志愿者招聘
+    </view>
+</view>
+<view class="tab">
+    <view class="tab-conmain" wx:for="{{content}}"  wx:key="*this">
+        <view class="tab-main">
+        <view class="tab-img">
+            <image src="{{item.url}}" />
+        </view>
+        <view class="tab-con">
+            <view class="tab-title">
+                {{item.name}}
+            </view>
+            <view class="tab-bot">
+                <view class="tab-from">
+                    {{item.from}}
+                </view>
+                <view class="tab-help" wx:if="{{item.vis}}">
+                    助力中
+                </view>
+            </view>
+        </view>
+    </view>
+    <view class="line"></view>
+    </view>
+</view>

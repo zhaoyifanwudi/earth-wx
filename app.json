@@ -1,0 +1,45 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/book/index",
+    "pages/logs/logs",
+    "pages/report/index",
+    "pages/help/index",
+    "pages/user/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "动物星球",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar":{
+    "list":[{
+      "pagePath":"pages/index/index",
+      "text":"首页",
+      "iconPath": "./res/index.png",
+      "selectedIconPath":"./res/index.png"
+    },{
+      "pagePath":"pages/book/index",
+      "text":"图鉴",
+      "iconPath": "./res/book.png",
+      "selectedIconPath":"./res/book.png"
+    },{
+      "pagePath":"pages/help/index",
+      "text":"助力",
+      "iconPath": "./res/help.png",
+      "selectedIconPath":"./res/help.png"
+    },{
+      "pagePath":"pages/report/index",
+      "text":"举报",
+      "iconPath": "./res/report.png",
+      "selectedIconPath":"./res/report.png"
+    },{
+      "pagePath":"pages/user/index",
+      "text":"我的",
+      "iconPath": "./res/user.png",
+      "selectedIconPath":"./res/user.png"
+    }]
+  },
+  "sitemapLocation": "sitemap.json"
+}
